@@ -1,7 +1,7 @@
 # Terraform
 
 ## Table of Contents
-[Terraform to Provision the Google Cloud]("/terraform-google-cloud/index.md")
+[Terraform to Provision the Google Cloud](terraform-google-cloud/index.md)
 
 
 ## Terraform Commands
