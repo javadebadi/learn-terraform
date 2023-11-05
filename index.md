@@ -1,6 +1,7 @@
 # Terraform
 
 ## Table of Contents
+[Terraform Installation](01-Installation.md)
 [Terraform to Provision the Google Cloud](terraform-google-cloud/index.md)
 
 
