@@ -42,7 +42,7 @@ Now, let’s provision our first compute engine in GCP using terraform
 
 In the `[main.tf](http://main.tf)` file write this:
 
-```json
+```
 resource "google_compute_instance" "this" {
   name         = "cloudshell"
   machine_type = "e2-micro"
@@ -60,7 +60,7 @@ resource "google_compute_instance" "this" {
 
 Now, first run this:
 
-```json
+```bash
 terraform init
 ```
 
@@ -68,7 +68,7 @@ terraform init
 
 and then
 
-```json
+```bash
 terraform apply
 ```
 
@@ -86,8 +86,13 @@ Now, we can go the google cloud console and explore compute engine to see that i
 
 To destroy resource using terraform you run
 
-```json
+```bash
 terraform destroy
 ```
 
 ![Untitled](Google%20Cloud%208f16fb098e8a4d64aaaa9eba07278349/Untitled%2010.png)
+
+
+## References
+We used the terraform file in this GitHub url to create this document:
+https://github.com/PacktPublishing/Terraform-for-Google-Cloud-Essential-Guide/tree/main/chap01/cloudshell
